@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chatbot</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Chatbot</h1>
+    
+    <form id="upload-form">
+      <input type="file" id="upload-input" name="chat" accept=".txt">
+      <button type="submit" class="upload-submit">Upload Chat History</button>
+    </form>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <form id="chat-form" class="chat-form">
+      <input type="text" id="chat-input" class="chat-input" placeholder="Type your message...">
+      <button type="submit" class="chat-submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
+
